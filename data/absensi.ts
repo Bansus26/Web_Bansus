@@ -35,7 +35,7 @@ export const submitAbsensi = async (
 ) => {
   try {
     const fileName = `${npm}_${name.split(" ").join("_").toLowerCase()}_${matkul}_pertmuan_${pertemuanKe}.pdf`;
-    const folderId = "1F5bCO1VboEYRiYXOoFOcwbbPpKt0m8yr";
+    const folderId = process.env.GOOGLE_DRIVE_FOLDER_ABSENSI_ASDOS;
 
     if (!folderId) {
       return { error: "Folder bukti kehadiran tidak ditemukan" };
