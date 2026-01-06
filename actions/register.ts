@@ -39,10 +39,10 @@ export async function signUpAsdos(data: TSignUpAsdosSchema) {
     return { error: "File surat pernyataan tidak ditemukan." };
   }
 
-  if (!npm.startsWith("22") && wawancara === "online") {
+  if (!npm.startsWith("23") && wawancara === "online") {
     return {
       error:
-        "Wawancara online hanya untuk mahasiswa angkatan 2022!, silahkan isi wawancara offline",
+        "Wawancara online hanya untuk mahasiswa angkatan 2023!, silahkan isi wawancara offline",
     };
   }
 

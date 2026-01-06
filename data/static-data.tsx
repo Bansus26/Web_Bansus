@@ -36,7 +36,7 @@ export const informationHero = [
 
 export const timeline = [
   {
-    date: "1-7 Juli 2025",
+    date: "8-2 Juli 2025",
     title: "Pendaftaran Online",
     description: "Pengisian formulir dan upload berkas",
     status: "upcoming" as const,

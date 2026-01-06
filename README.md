@@ -1,4 +1,4 @@
-# Badan Khusus - Asisten Manajemen Dosen v2.2
+# Badan Khusus - Asisten Manajemen Dosen v2.1
 
 ![Logo Aplikasi Anda](https://via.placeholder.com/150/007BFF/FFFFFF?text=Logo)
 

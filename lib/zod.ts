@@ -47,11 +47,11 @@ export const signUpAsdosSchema = z
     path: ["confirmPassword"],
   })
   .superRefine((data, ctx) => {
-    if (!data.npm.startsWith("22") && data.wawancara === "online") {
+    if (!data.npm.startsWith("23") && data.wawancara === "online") {
       ctx.addIssue({
         code: z.ZodIssueCode.custom,
         message:
-          "Wawancara online hanya dapat dilakukan oleh mahasiswa angkatan 2022",
+          "Wawancara online hanya dapat dilakukan oleh mahasiswa angkatan 2023",
         path: ["wawancara"],
       });
     }

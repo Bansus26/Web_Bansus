@@ -301,7 +301,7 @@ const OprecDaftarAsdosPage = ({ dataCoures }: OprecDaftarAsdosPageProps) => {
         <FormSection title="TEKNIS WAWANCARA" stepNumber={6}>
           <div className="grid md:grid-cols-2 gap-6">
             <FormSelect
-              label="Opsi Wawancara (khusus akt 22)"
+              label="Opsi Wawancara (khusus akt 23)"
               name="wawancara"
               options={wawancaraOptions}
               placeholder="Pilih opsi wawancara..."
@@ -366,7 +366,9 @@ const OprecDaftarAsdosPage = ({ dataCoures }: OprecDaftarAsdosPageProps) => {
           </div>
 
           {/* Login Link */}
-          <div className={`text-center pt-4 border-t ${theme.border_table_default} mt-5`}>
+          <div
+            className={`text-center pt-4 border-t ${theme.border_table_default} mt-5`}
+          >
             <p className={`text-white text-sm`}>
               Sudah punya akun?{" "}
               <Link
