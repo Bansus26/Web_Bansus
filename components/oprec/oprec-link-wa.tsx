@@ -28,7 +28,7 @@ const LinkWaPage = () => {
         </p>
 
         <Link
-          href={"https://chat.whatsapp.com/JMwUzWpfVPR6i60AhExFrm"}
+          href={"https://chat.whatsapp.com/Bc16QcQUOID08ZuToa3jfg"}
           target="_blank"
           rel="noopener noreferrer"
           className={`${theme.button_square_pressed_blue} group inline-flex items-center justify-center w-full sm:w-auto font-bold rounded-lg transition-all duration-300 transform hover:scale-105 mb-6`}
@@ -40,7 +40,7 @@ const LinkWaPage = () => {
           Atau Scan QR Code dibawah
         </p>
         <Image
-          src="/qr/qr-link-wa.png"
+          src="/qr/qr-link-wa1.png"
           alt="QR Code"
           width={200}
           height={200}

@@ -15,8 +15,8 @@ import {
 } from "lucide-react";
 
 export const timelineOprec = {
-  start: "01 Juli 2025",
-  end: "07 Juli 2025",
+  start: "15 Januari 2026",
+  end: "19 Januari 2026",
 };
 
 export const informationHero = [
@@ -25,7 +25,7 @@ export const informationHero = [
     description: "Posisi Tersedia",
   },
   {
-    value: "25",
+    value: "35+",
     description: "Mata Kuliah",
   },
   {
@@ -36,38 +36,38 @@ export const informationHero = [
 
 export const timeline = [
   {
-    date: "8-2 Juli 2025",
+    date: "15 Januari 2026 - 19 Januari 2026",
     title: "Pendaftaran Online",
     description: "Pengisian formulir dan upload berkas",
     status: "upcoming" as const,
   },
   {
-    date: "8-14 Juli 2025",
+    date: "20 Januari 2026 - 23 Januari 2026",
     title: "Pendaftaran Online Extend",
     description: "Pengisian formulir dan upload berkas",
     status: "upcoming" as const,
   },
   {
-    date: "15 Juli 2025 - 20 Juli 2025",
+    date: "24 Januari 2026 - 25 Januari 2026",
     title: "Seleksi Administrasi",
     description: "Verifikasi berkas dan persyaratan",
     status: "upcoming" as const,
   },
   {
-    date: "28 Juli 2025 - 2 Agustus 2025",
+    date: "26 Januari 2026 - 29 Januari 2026",
     title: "Tes & Wawancara",
     description: "Tes kemampuan dan studi kasus",
     status: "upcoming" as const,
   },
   {
-    date: "10 Agustus 2025",
+    date: "03 Februari 2026",
     title: "Pengumuman Hasil",
     description: "Publikasi hasil seleksi",
     status: "upcoming" as const,
   },
   {
-    date: "13 Agustus 2025",
-    title: "Pelatihan Asisten Dosen",
+    date: "07 Februari 2026 - 08 Februari 2026",
+    title: "Sosialisasi & Orientasi Asisten Dosen",
     description: "Pengenalan tugas dan sistem",
     status: "upcoming" as const,
   },
@@ -75,7 +75,7 @@ export const timeline = [
 
 export const requirements = [
   {
-    text: "Mahasiswa Aktif Jurusan Ilmu Komputer Universitas Lampung angkatan 2024, 2023 dan 2022.",
+    text: "Mahasiswa Aktif Jurusan Ilmu Komputer Universitas Lampung minimal angkatan 2024.",
     icon: <GraduationCap className="w-5 h-5" />,
   },
   {

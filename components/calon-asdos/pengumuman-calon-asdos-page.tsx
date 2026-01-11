@@ -110,7 +110,7 @@ export default function PengumumanCalonAsdosPage({
               />
             </div>
             <Link
-              href="https://chat.whatsapp.com/LpZZ6rf3DEcDEw99Kek0c3" // <-- GANTI DENGAN LINK GRUP WHATSAPP ANDA
+              href="https://chat.whatsapp.com/Bc16QcQUOID08ZuToa3jfg" // <-- GANTI DENGAN LINK GRUP WHATSAPP ANDA
               target="_blank"
               rel="noopener noreferrer"
               className="group mt-4 relative inline-flex items-center px-8 py-4 bg-gradient-to-r from-green-500 to-green-600 text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-green-400/25"
