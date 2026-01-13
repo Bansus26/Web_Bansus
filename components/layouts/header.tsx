@@ -135,7 +135,7 @@ const Header = () => {
                   src="/bansus.png"
                   width={32}
                   height={32}
-                  alt="Laboratium Ilmu Komputer Logo"
+                  alt="Laboratorium Ilmu Komputer Logo"
                   className="rounded-xl md:w-10 md:h-10 transition-transform duration-300 group-hover:scale-105"
                   priority
                 />
@@ -146,9 +146,9 @@ const Header = () => {
                 >
                   <span
                     className="bansus-glow"
-                    data-text="Laboratium Ilmu Komputer"
+                    data-text="Laboratorium Ilmu Komputer"
                   >
-                    Laboratium Ilmu Komputer
+                    Laboratorium Ilmu Komputer
                   </span>
                 </h1>
               </div>
@@ -157,8 +157,8 @@ const Header = () => {
                 <h1
                   className={`text-sm font-bold ${theme.text_title} flex flex-col`}
                 >
-                  <span className="bansus-glow" data-text="Laboratium">
-                    Laboratium
+                  <span className="bansus-glow" data-text="Laboratorium">
+                    Laboratorium
                   </span>
                   <span className="bansus-glow" data-text="Ilmu Komputer">
                     Ilmu Komputer
