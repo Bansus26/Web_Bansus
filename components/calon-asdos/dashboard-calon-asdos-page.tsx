@@ -129,10 +129,12 @@ const DashboardCalonAsdosPage = ({ user }: DashboardCalonAsdosPageProps) => {
                       <p className={`${theme.text_default_light} text-sm`}>
                         Jika butuh bantuan. Kontak admin.
                         <br />
+                        Raris Anggustianto. badankhusus26@gmail.com (0821-8110-0679)
+                         {/* <br />
                         Wildan Mukmin. wildan.cooliah@gmail.com (0895640025480)
                         <br />
                         Rizky Kurnia Antasari. rizkypro27.co@gmail.com
-                        (085768103057)
+                        (085768103057)// */}
                       </p>
                     </>
                   )}
