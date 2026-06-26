@@ -15,8 +15,8 @@ import {
 } from "lucide-react";
 
 export const timelineOprec = {
-  start: "15 Januari 2026",
-  end: "19 Januari 2026",
+  start: "01 Juli 2026",
+  end: "06 Juli 2026",
 };
 
 export const informationHero = [
