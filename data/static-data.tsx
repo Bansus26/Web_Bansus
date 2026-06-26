@@ -36,46 +36,46 @@ export const informationHero = [
 
 export const timeline = [
   {
-    date: "15 Januari 2026 - 19 Januari 2026",
+    date: "01 Juli 2026 - 06 Juli 2026",
     title: "Pendaftaran Online",
     description: "Pengisian formulir dan upload berkas",
     status: "upcoming" as const,
   },
+  // {
+  //   date: "20 Januari 2026 - 22 Januari 2026",
+  //   title: "Pendaftaran Online Extend",
+  //   description: "Pengisian formulir dan upload berkas",
+  //   status: "upcoming" as const,
+  // },
   {
-    date: "20 Januari 2026 - 22 Januari 2026",
-    title: "Pendaftaran Online Extend",
-    description: "Pengisian formulir dan upload berkas",
-    status: "upcoming" as const,
-  },
-  {
-    date: "23 Januari 2026",
+    date: "13 Juli 2026",
     title: "Seleksi Administrasi",
     description: "Verifikasi berkas dan persyaratan",
     status: "upcoming" as const,
   },
   {
-    date: "24 Januari 2026 - 29 Januari 2026",
+    date: "16 Juli 2026 - 21 Juli 2026",
     title: "Tes & Wawancara",
     description: "Tes kemampuan dan studi kasus",
     status: "upcoming" as const,
   },
   {
-    date: "03 Februari 2026",
+    date: "28 Juli 2026",
     title: "Pengumuman Hasil",
     description: "Publikasi hasil seleksi",
     status: "upcoming" as const,
   },
-  {
-    date: "07 Februari 2026 - 08 Februari 2026",
-    title: "Sosialisasi & Orientasi Asisten Dosen",
-    description: "Pengenalan tugas dan sistem",
-    status: "upcoming" as const,
-  },
+  // {
+  //   date: "07 Februari 2026 - 08 Februari 2026",
+  //   title: "Sosialisasi & Orientasi Asisten Dosen",
+  //   description: "Pengenalan tugas dan sistem",
+  //   status: "upcoming" as const,
+  // },
 ] as const;
 
 export const requirements = [
   {
-    text: "Mahasiswa Aktif Jurusan Ilmu Komputer Universitas Lampung minimal angkatan 2024.",
+    text: "Mahasiswa Aktif Jurusan Ilmu Komputer Universitas Lampung minimal angkatan 2025.",
     icon: <GraduationCap className="w-5 h-5" />,
   },
   {
