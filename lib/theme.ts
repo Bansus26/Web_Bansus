@@ -145,5 +145,5 @@ export const theme = {
 
   // add ons
   status_warning:
-    "bg-red-200 border border-red-400 text-red-800 p-6 rounded-2xl max-w-3xl shadow-md relative z-10", // dipake buat warnig di fosi, pad di guest
+    "bg-red-200 border border-red-400 text-red-800 p-6 text-white  rounded-2xl max-w-3xl shadow-md relative z-10", // dipake buat warnig di fosi, pad di guest
 };

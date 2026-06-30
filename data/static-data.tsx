@@ -15,8 +15,8 @@ import {
 } from "lucide-react";
 
 export const timelineOprec = {
-  start: "01 Juli 2026",
-  end: "06 Juli 2026",
+  start: "03 Juli 2026",
+  end: "08 Juli 2026",
 };
 
 export const informationHero = [
@@ -36,41 +36,41 @@ export const informationHero = [
 
 export const timeline = [
   {
-    date: "01 Juli 2026 - 06 Juli 2026",
+    date: "03 Juli 2026 - 08 Juli 2026",
     title: "Pendaftaran Online",
     description: "Pengisian formulir dan upload berkas",
     status: "upcoming" as const,
   },
   // {
-  //   date: "20 Januari 2026 - 22 Januari 2026",
+  //   date: "09 Juli 2026 - 14 Juli 2026",
   //   title: "Pendaftaran Online Extend",
   //   description: "Pengisian formulir dan upload berkas",
   //   status: "upcoming" as const,
   // },
   {
-    date: "13 Juli 2026",
+    date: "15 Juli 2026",
     title: "Seleksi Administrasi",
     description: "Verifikasi berkas dan persyaratan",
     status: "upcoming" as const,
   },
   {
-    date: "16 Juli 2026 - 21 Juli 2026",
+    date: "22 Juli 2026 - 27 Juli 2026",
     title: "Tes & Wawancara",
     description: "Tes kemampuan dan studi kasus",
     status: "upcoming" as const,
   },
   {
-    date: "28 Juli 2026",
+    date: "29 Juli 2026",
     title: "Pengumuman Hasil",
     description: "Publikasi hasil seleksi",
     status: "upcoming" as const,
   },
-  // {
-  //   date: "07 Februari 2026 - 08 Februari 2026",
-  //   title: "Sosialisasi & Orientasi Asisten Dosen",
-  //   description: "Pengenalan tugas dan sistem",
-  //   status: "upcoming" as const,
-  // },
+  {
+    date: "12 Agustus 2026",
+    title: "Sosialisasi & Orientasi Asisten Dosen",
+    description: "Pengenalan tugas dan sistem",
+    status: "upcoming" as const,
+  },
 ] as const;
 
 export const requirements = [
