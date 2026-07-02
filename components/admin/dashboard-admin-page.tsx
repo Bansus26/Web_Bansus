@@ -291,7 +291,7 @@ const DashboardAdminPage = ({
         {/* Quick Stats Summary */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div
-            className={`p-6 rounded-2xl bg-gradient-to-br from-blue-50 to-sky-50 dark:from-blue-950/30 dark:to-sky-950/30 border border-blue-200 dark:border-blue-800 ${theme.card_shadow}`}
+            className={`p-6 rounded-2xl bg-linear-to-r from-blue-50 to-sky-50 dark:from-blue-950/30 dark:to-sky-950/30 border border-blue-200 dark:border-blue-800 ${theme.card_shadow}`}
           >
             <div className="flex items-center gap-3 mb-3">
               <div className="p-2 bg-blue-500 rounded-lg">
