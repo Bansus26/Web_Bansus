@@ -202,7 +202,7 @@ export const MatkulSection = ({
                 className={`relative ${theme.card_shadow} ${theme.card_elegant} ${theme.hover_default} p-6 transition-all duration-300 `}
               >
                 {/* Slot info */}
-                <div className={`${theme.text_title} absolute -top-2 -right-2 bg-green-500/50 text-xs px-3 py-1 rounded-full font-medium shadow-sm`}>
+                <div className={`text-shadow-white absolute -top-2 -right-2 bg-green-500/75 text-xs px-3 py-1 rounded-full font-bold shadow-sm`}>
                   {course.kuota} Slot
                 </div>
 
