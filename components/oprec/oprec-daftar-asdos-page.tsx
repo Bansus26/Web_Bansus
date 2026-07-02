@@ -14,6 +14,7 @@ import { theme } from "@/lib/theme";
 import { TGetCourses, TSignUpAsdosSchema } from "@/lib/types";
 import { signUpAsdosSchema } from "@/lib/zod";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { Filter } from "lucide-react";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import { useMemo, useState } from "react";
@@ -64,7 +65,7 @@ const OprecDaftarAsdosPage = ({ dataCoures }: OprecDaftarAsdosPageProps) => {
   const availableMatkul2Options =
     useMemo(() => {
       return dataCoures
-        ?.filter((mk) => mk.id !== watchedValues.matkul1)
+        ?.filter((mk) => mk.status === "aktif" && mk.id !== watchedValues.matkul1)
         .map((mk) => ({
           id: mk.id,
           label: `Semester ${mk.semester.semesterNumber} - ${mk.semester.prodi.name} - ${mk.name}`,
@@ -74,7 +75,7 @@ const OprecDaftarAsdosPage = ({ dataCoures }: OprecDaftarAsdosPageProps) => {
 
   const matkulOptions =
     useMemo(() => {
-      return dataCoures?.map((mk) => ({
+      return dataCoures?.filter((mk) => mk.status === "aktif").map((mk) => ({
         id: mk.id,
         label: `Semester ${mk.semester.semesterNumber} - ${mk.semester.prodi.name} - ${mk.name}`,
         value: mk.id,
