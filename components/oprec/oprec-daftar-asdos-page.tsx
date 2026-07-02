@@ -302,7 +302,7 @@ const OprecDaftarAsdosPage = ({ dataCoures }: OprecDaftarAsdosPageProps) => {
         <FormSection title="TEKNIS WAWANCARA" stepNumber={6}>
           <div className="grid md:grid-cols-2 gap-6">
             <FormSelect
-              label="Opsi Wawancara (khusus akt 23)"
+              label="Opsi Wawancara (Khusus Angkatan 23 & Prodi MI Angkatan 24)"
               name="wawancara"
               options={wawancaraOptions}
               placeholder="Pilih opsi wawancara..."
