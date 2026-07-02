@@ -11,7 +11,7 @@ import { RequirementsSection } from "@/components/oprec/requirement";
 import { MatkulSection } from "@/components/oprec/subject";
 import { TimelineSection } from "@/components/oprec/timeline";
 import { theme } from "@/lib/theme";
-import { TGetProdis } from "@/lib/types";
+import { TGetProdis, TGetCourses } from "@/lib/types";
 
 interface OprecPageProps {
   dataProdis: TGetProdis;
@@ -23,7 +23,10 @@ const OprecPage = ({ dataProdis }: OprecPageProps) => {
       return (
         total +
         prodi.semester.reduce((semesterTotal, semester) => {
-          return semesterTotal + semester.courses.length;
+          const activeCourses = semester.courses.filter(
+            (course) => course.status === "aktif" 
+          );
+          return semesterTotal + activeCourses.length;
         }, 0)
       );
     }, 0) || 0;

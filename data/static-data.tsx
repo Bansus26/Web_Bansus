@@ -54,20 +54,20 @@ export const timeline = [
     status: "upcoming" as const,
   },
   {
-    date: "22 Juli 2026 - 27 Juli 2026",
+    date: "20 Juli 2026 - 25 Juli 2026",
     title: "Tes & Wawancara",
     description: "Tes kemampuan dan studi kasus",
     status: "upcoming" as const,
   },
   {
-    date: "29 Juli 2026",
+    date: "01 Juli 2026",
     title: "Pengumuman Hasil",
     description: "Publikasi hasil seleksi",
     status: "upcoming" as const,
   },
   {
     date: "12 Agustus 2026",
-    title: "Sosialisasi & Orientasi Asisten Dosen",
+    title: "Pelatihan Asisten Dosen",
     description: "Pengenalan tugas dan sistem",
     status: "upcoming" as const,
   },
