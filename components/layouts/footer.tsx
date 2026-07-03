@@ -149,25 +149,36 @@ const Footer = () => {
                   href="mailto:badankhusus2025@gmail.com"
                   className="hover:text-slate-400 text-white transition-colors duration-300"
                 >
-                  badankhusus2025@gmail.com
+                  badankhusus2026@gmail.com
                 </Link>
               </li>
               <li className="flex items-center text-base text-white">
                 <Phone className={`w-4 h-4 mr-2 text-white flex-shrink-0`} />
                 <Link
-                  href="tel:+6285768103057"
+                  href="tel:+6282181100679"
                   className="hover:text-slate-400 text-white transition-colors duration-300"
                 >
-                  +62 857 6810 3057 (Rizky)
+                  +62 821 8110 0679 (Raris Anggustianto)
                 </Link>
               </li>
+
               <li className="flex items-center text-base text-white">
                 <Phone className={`w-4 h-4 mr-2 text-white flex-shrink-0`} />
                 <Link
-                  href="tel:+62895640025480"
+                  href="tel:+6285783392040"
                   className="hover:text-slate-400 text-white transition-colors duration-300"
                 >
-                  +62 895 6400 25480 (Wildan)
+                  +62 857 8339 2040 (Zahra Ayu Azizah)
+                </Link>
+              </li>
+
+              <li className="flex items-center text-base text-white">
+                <Phone className={`w-4 h-4 mr-2 text-white flex-shrink-0`} />
+                <Link
+                  href="tel:+6282180402931"
+                  className="hover:text-slate-400 text-white transition-colors duration-300"
+                >
+                  +62 821 8040 2931 (Achira Desya Lucy)
                 </Link>
               </li>
             </ul>

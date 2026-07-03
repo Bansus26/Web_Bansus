@@ -60,7 +60,7 @@ export const timeline = [
     status: "upcoming" as const,
   },
   {
-    date: "01 Juli 2026",
+    date: "01 Agustus 2026",
     title: "Pengumuman Hasil",
     description: "Publikasi hasil seleksi",
     status: "upcoming" as const,
