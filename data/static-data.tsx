@@ -41,12 +41,12 @@ export const timeline = [
     description: "Pengisian formulir dan upload berkas",
     status: "upcoming" as const,
   },
-  // {
-  //   date: "09 Juli 2026 - 14 Juli 2026",
-  //   title: "Pendaftaran Online Extend",
-  //   description: "Pengisian formulir dan upload berkas",
-  //   status: "upcoming" as const,
-  // },
+  {
+    date: "09 Juli 2026 - 14 Juli 2026",
+    title: "Pendaftaran Online Extend",
+    description: "Pengisian formulir dan upload berkas",
+    status: "upcoming" as const,
+  },
   {
     date: "15 Juli 2026",
     title: "Seleksi Administrasi",
