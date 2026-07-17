@@ -81,19 +81,19 @@ const OprecPage = ({ dataProdis }: OprecPageProps) => {
 
               {/* Oprec Ditutup */}
 
-               <h3 className={`text-l md:text-2xl font-bold ${theme.status_warning} hover:bg-red-500 transition-all duration-300 ease-in-out transform mb-8 leading-tight`}>Oprec Belum Dibuka</h3>
+               {/*<h3 className={`text-l md:text-2xl font-bold ${theme.status_warning} hover:bg-red-500 transition-all duration-300 ease-in-out transform mb-8 leading-tight`}>Oprec Belum Dibuka</h3>*/}
 
 
               {/* Tombol Daftar */}
 
-              {/*<Button // INI ADA KELASNYA SENDIRI DI button.tsx
+              <Button // INI ADA KELASNYA SENDIRI DI button.tsx
                 href="/oprec/daftar"
                 size="lg"
                 className={``}
               >
                 Daftar Sekarang
                 <ChevronRight className="w-5 h-5 ml-2 transition-transform group-hover:translate-x-1" />
-              </Button>*/}
+              </Button>
 
 
 
