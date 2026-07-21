@@ -5,7 +5,7 @@ import {
   timeline,
   timelineOprec
 } from "@/data/static-data";
-import { ChevronRight, Download, Zap } from "lucide-react";
+import { ChevronRight, Download, Zap, XCircle } from "lucide-react";
 
 import { RequirementsSection } from "@/components/oprec/requirement";
 import { MatkulSection } from "@/components/oprec/subject";
@@ -81,19 +81,30 @@ const OprecPage = ({ dataProdis }: OprecPageProps) => {
 
               {/* Oprec Ditutup */}
 
-               {/*<h3 className={`text-l md:text-2xl font-bold ${theme.status_warning} hover:bg-red-500 transition-all duration-300 ease-in-out transform mb-8 leading-tight`}>Oprec Belum Dibuka</h3>*/}
+              <button
+                disabled
+                className="group relative overflow-hidden bg-gradient-to-r from-red-500 to-red-600 text-white font-bold px-10 py-5 rounded-2xl shadow-xl border-2 border-red-400/50 opacity-90 cursor-not-allowed flex items-center gap-3 select-none"
+              >
+                <div className="w-8 h-8 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center">
+                  <XCircle className="w-5 h-5 text-white" />
+                </div>
+                <span className="relative z-10 text-lg">
+                  Pendaftaran Ditutup
+                </span>
+                <div className="absolute inset-0 bg-white/10 animate-pulse" />
+              </button>
 
 
               {/* Tombol Daftar */}
 
-              <Button // INI ADA KELASNYA SENDIRI DI button.tsx
+              {/*<Button // INI ADA KELASNYA SENDIRI DI button.tsx
                 href="/oprec/daftar"
                 size="lg"
                 className={``}
               >
                 Daftar Sekarang
                 <ChevronRight className="w-5 h-5 ml-2 transition-transform group-hover:translate-x-1" />
-              </Button>
+              </Button>*/}
 
 
 
