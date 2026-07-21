@@ -110,7 +110,7 @@ const OprecPage = ({ dataProdis }: OprecPageProps) => {
 
               {/* Surat Pernyataan disini */}
 
-              <Button
+              {/*<Button
                 variant="secondary"
                 size="lg"
                 href="/files/surat-pernyataan.docx"
@@ -118,7 +118,7 @@ const OprecPage = ({ dataProdis }: OprecPageProps) => {
               >
                 <Download className={`w-5 h-5 mr-2`} />
                 Download Surat Pernyataan
-              </Button>
+              </Button>*/}
             </div>
           </div>
 
