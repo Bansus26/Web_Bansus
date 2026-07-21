@@ -81,7 +81,7 @@ const OprecPage = ({ dataProdis }: OprecPageProps) => {
 
               {/* Oprec Ditutup */}
 
-              <button
+              {/*<button
                 disabled
                 className="group relative overflow-hidden bg-gradient-to-r from-red-500 to-red-600 text-white font-bold px-10 py-5 rounded-2xl shadow-xl border-2 border-red-400/50 opacity-90 cursor-not-allowed flex items-center gap-3 select-none"
               >
@@ -92,25 +92,25 @@ const OprecPage = ({ dataProdis }: OprecPageProps) => {
                   Pendaftaran Ditutup
                 </span>
                 <div className="absolute inset-0 bg-white/10 animate-pulse" />
-              </button>
+              </button>*/}
 
 
               {/* Tombol Daftar */}
 
-              {/*<Button // INI ADA KELASNYA SENDIRI DI button.tsx
+              <Button // INI ADA KELASNYA SENDIRI DI button.tsx
                 href="/oprec/daftar"
                 size="lg"
                 className={``}
               >
                 Daftar Sekarang
                 <ChevronRight className="w-5 h-5 ml-2 transition-transform group-hover:translate-x-1" />
-              </Button>*/}
+              </Button>
 
 
 
               {/* Surat Pernyataan disini */}
 
-              {/*<Button
+              <Button
                 variant="secondary"
                 size="lg"
                 href="/files/surat-pernyataan.docx"
@@ -118,7 +118,7 @@ const OprecPage = ({ dataProdis }: OprecPageProps) => {
               >
                 <Download className={`w-5 h-5 mr-2`} />
                 Download Surat Pernyataan
-              </Button>*/}
+              </Button>
             </div>
           </div>
 
