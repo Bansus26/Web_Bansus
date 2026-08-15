@@ -72,7 +72,7 @@ const PadPage = () => {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
           {/* Materi 1 - Preview PDF */}
           <a
-            href="https://www.aryadzar.my.id/blog/tutorial-vclass-untuk-asisten-8335523070470254305"
+            href="https://www.aryadzar.my.id/id/blog/tutorial-vclass"
             target="_blank"
             rel="noopener noreferrer"
             className={`${theme.table_highlight} ${theme.hover_glow_light} rounded-xl p-6 ${theme.card_shadow} hover:shadow-lg transition`}
