@@ -16,7 +16,7 @@ const PadPage = () => {
         <h1
           className={`sm:text-5xl text-3xl font-extrabold mb-4 tracking-tight ${theme.text_title}`}
         >
-          📚 Pelatihan Asisten Dosen 2025 📚
+          📚 Pelatihan Asisten Dosen 2026 📚
         </h1>
         <p
           className={`sm:text-2xl text-xl italic ${theme.text_default} mb-8 max-w-4xl mx-auto`}
@@ -31,7 +31,7 @@ const PadPage = () => {
         <span
           className={`${theme.hover_glow_light} px-6 py-3 rounded-full ${theme.text_title}`}
         >
-          📅 Rabu, 13 Agustus 2025
+          📅 Rabu, 12 Agustus 2026
         </span>
 
         <span
@@ -59,7 +59,7 @@ const PadPage = () => {
       {/* Wajib hadir */}
       <div className={`${theme.status_warning}`}>
         ⚠ <strong>WAJIB</strong> hadir bagi seluruh Asisten Dosen Semester
-        Ganjil 2025/2026 yang belum pernah menjadi asisten sebelumnya.
+        Ganjil 2026/2027 yang belum pernah menjadi asisten sebelumnya.
       </div>
 
       {/* Materi pelatihan */}
@@ -90,7 +90,7 @@ const PadPage = () => {
 
           {/* Materi 2 - PDF */}
           <a
-            href="/files/materi-pelasdos-2025.pdf"
+            href="/files/materi-pelasdos-2026.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className={`${theme.table_highlight} ${theme.hover_glow_light} rounded-xl p-6 ${theme.card_shadow} hover:shadow-lg transition`}
