@@ -89,6 +89,7 @@ const JadwalPraktikumPage = ({ dataClasses }: JadwalPraktikumPageProps) => {
           id: classItem?.course?.id || "",
           name: classItem?.course?.name || "Mata Kuliah Tidak Tersedia",
           code: classItem.course?.code || "Kode Mata Kuliah Tidak Tersedia",
+          status: classItem.course?.status || "non-aktif",
           semester: {
             id: classItem?.course?.semester?.id || "",
             semesterNumber: classItem?.course?.semester?.semesterNumber || 0,
