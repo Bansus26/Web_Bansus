@@ -30,6 +30,7 @@ export interface Course {
   name: string;
   code: string;
   slots: number;
+  status: string;
 }
 
 export interface SubjectCategory {

@@ -34,7 +34,7 @@ interface GroupedClass {
       id: string;
       name: string;
       code: string;
-      // status: string;
+      status: string;
       semester: {
         id: string;
         semesterNumber: number;
