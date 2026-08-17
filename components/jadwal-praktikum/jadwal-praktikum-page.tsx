@@ -34,6 +34,7 @@ interface GroupedClass {
       id: string;
       name: string;
       code: string;
+      // status: string;
       semester: {
         id: string;
         semesterNumber: number;
@@ -113,7 +114,7 @@ const JadwalPraktikumPage = ({ dataClasses }: JadwalPraktikumPageProps) => {
     }));
   };
   const dataJadwalPloting = dataClasses?.filter(
-    (item) => item?.jadwalPraktikum
+    (item) => item?.jadwalPraktikum && item?.course?.status?.toLowerCase() === "aktif"
   );
   const groupedKelas = useMemo(
     () => groupByClass(dataJadwalPloting || []),
