@@ -636,6 +636,8 @@ const AbsensiAsdosPage = ({
                           <option value="GIK_L1_B">GIK Lt. 1 B</option>
                           <option value="GIK_L1_C">GIK Lt. 1 C</option>
                           <option value="GIK_L2">GIK Lt. 2</option>
+                          <option value="FEB">FEB</option>
+                          <option value="PSDKU">PSDKU</option>
                           <option value="ONLINE_MEET_ZOOM">
                             Online (Zoom)
                           </option>
